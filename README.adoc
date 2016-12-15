@@ -84,7 +84,7 @@ protected void init(VaadinRequest vaadinRequest) {
 
 If your run the application at this point, the application URL fragment should be `#!dashboard` and you should see the dashboard view. You can already navigate using fragments, but let's add button click handling of the menu items next.
 
-== Handling menu actions
+== Handle menu button clicks
 
 Button click listeners are added in the MainLayout. Add a click listener for each of the menu action buttons and call `Navigator.navigateTo()` with the given view name. I have wrapped the navigateTo call in a private method doNavigate.
 
